@@ -1,54 +1,66 @@
-# Student Record Management System
+# Java Console Calculator
+A simple Java console-based calculator using OOP, methods, loops, conditionals, and console I/O.
+
+
 
 ## Objective
-A CLI-based CRUD application in Java to manage student records.  
-This project demonstrates Encapsulation, Collections (ArrayList), File Handling, and OOP concepts.
+Build a basic calculator using Java console I/O to understand syntax, logic flow, and OOP concepts.
 
----
-
-## Tools & Technologies
-- Java (JDK 8+ recommended)  
-- VS Code / IntelliJ IDEA CE  
-- CLI (Command Line Interface)
-
----
+## Tools Used
+- Java (JDK)
+- VS Code / IntelliJ CE
+- Terminal / Command Prompt
 
 ## Features
-- Add Student → Add new student record with ID, Name, Age  
-- View Students → Display all student records  
-- Update Student → Modify student details using ID  
-- Delete Student → Remove a student by ID  
-- Sort Students → Sort records by Name (A-Z) or Age (Ascending)  
-- File Handling → Records saved in `students.txt` and loaded automatically on program start  
-- Exit → Safely exit the program  
+- Addition, subtraction, multiplication, and division.
+- Method overloading for addition (int and double).
+- Loop for multiple calculations until the user exits.
+- Division by zero handled gracefully.
+- Uses OOP, methods, conditionals, loops, and console I/O.
 
----
+## Files
+- ConsoleCalculator.java → Source code
+- README.md → Project explanation
+- screenshots/ → Console output screenshots (if any)
 
-## Project Structure
+## How to Run
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/<your-username>/Java-Console-Calculator.git
+## sample output
+===== Java Console Calculator =====
 
-## Sample Output
+Choose operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Exit
+Enter your choice: 1
+Enter first number: 10
+Enter second number: 5
+Result: 15.0
 
-===== Student Management System =====
-1. Add Student
-2. View Students
-3. Update Student
-4. Delete Student
-5. Sort Students
-6. Exit
-Choose an option: 1
-Enter ID: 101
-Enter Name: Rahul
-Enter Age: 20
-Student added successfully!
+Choose operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Exit
+Enter your choice: 4
+Enter first number: 8
+Enter second number: 0
+Error: Division by zero!
+Result: 0.0
 
-===== Student Management System =====
-1. Add Student
-2. View Students
-3. Update Student
-4. Delete Student
-5. Sort Students
-6. Exit
-Choose an option: 2
+Choose operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Exit
+Enter your choice: 5
+Exiting Calculator. Goodbye!
+=======
 
---- Student Records ---
-ID: 101 | Name: Rahul | Age: 20
+
